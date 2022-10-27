@@ -1,0 +1,176 @@
+.containers {
+    display: flex;
+ }
+ 
+ .flex-child {
+    flex: 1;
+ }
+ 
+ .flex-child:first-child {
+    margin-right: 20px;
+ }
+
+div > img{
+    justify-content: center;
+    max-width: 100%;
+    height: 390px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left: 4px solid rgb(204, 231, 241);
+    }
+
+span {
+   color: rgb(115, 117, 255);
+    }
+
+h3 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border-left: 4px solid rgb(204, 231, 241);
+   }
+
+   table#imcadulto { 
+      margin: 0 auto;
+      border-collapse: collapse;
+      font-family: Agenda-Light, sans-serif;
+      font-weight: 100; 
+      background: rgb(123, 197, 179); color: #fff;
+      text-rendering: optimizeLegibility;
+      border-radius: 5px; 
+    }
+    
+    table#imcadulto thead th {
+       font-weight: 600; }
+
+    table#imcadulto thead th, table#imcadulto tbody td { 
+      padding: .8rem; font-size: 1.4rem;
+    }
+
+    table#imcadulto tbody td { 
+      padding: .8rem; font-size: 1.4rem;
+      color: #444; background: #eee; 
+    }
+
+    table#imcadulto tbody tr:not(:last-child) { 
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;  
+    }
+    
+    @media screen and (max-width: 600px) {
+      table#imcadulto caption { 
+         background-image: none; }
+      table#imcadulto thead { 
+         display: none; }
+      table#imcadulto tbody td { 
+        display: block; padding: .6rem; 
+      }
+      table#imcadulto tbody tr td:first-child { 
+        background: #666; color: #fff; 
+      }
+      table#imcadulto tbody td:before { 
+        content: attr(data-th); 
+        font-weight: bold;
+        display: inline-block;
+        width: 6rem;  
+      }
+    }
+
+
+    table#imcidoso { 
+      margin: 0 auto;
+      border-collapse: collapse;
+      font-family: Agenda-Light, sans-serif;
+      font-weight: 100; 
+      background: rgb(123, 197, 179); color: #fff;
+      text-rendering: optimizeLegibility;
+      border-radius: 5px; 
+    }
+
+    table#imcidoso thead th {
+       font-weight: 600; }
+
+    table#imcidoso thead th, table#imcidoso tbody td { 
+      padding: .8rem; font-size: 1.4rem;
+    }
+
+    table#imcidoso tbody td { 
+      padding: .8rem; font-size: 1.4rem;
+      color: #444; background: #eee; 
+    }
+
+    table#imcidoso tbody tr:not(:last-child) { 
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;  
+    }
+    
+    @media screen and (max-width: 600px) {
+      table#imcidoso caption { 
+         background-image: none; }
+      table#imcidoso thead { 
+         display: none; }
+      table#imcidoso tbody td { 
+        display: block; padding: .6rem; 
+      }
+     
+      table#imcidoso tbody td:before { 
+        content: attr(data-th); 
+        font-weight: bold;
+        display: inline-block;
+        width: 6rem;  
+      }
+
+      table#imcadulto{
+        float: left;
+      }
+
+      table#imcidoso{
+        float: right;
+      }
+
+    }
+
+.imctables{
+  display: flex;
+}
+
+.flex-child_img_2{
+  width: 550px;
+}
+
+.inputs
+{
+    height:20px;
+    font-size:12pt;
+    width: 100px;
+    background-color:#d1c7f7;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border: none;
+}
+
+
+.button {
+  background-color: #d1c7f7;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  cursor: pointer;
+}
+
+.imgtroca {
+  text-align: center;
+}
+
+.inputebtt {
+  text-align: center;
+}
